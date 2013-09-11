@@ -4,7 +4,7 @@
   "description": "A wrapper for the Youtube Data API.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test/main.js"
   },
   "keywords": [
     "youtube",
@@ -13,5 +13,14 @@
     "wrapper"
   ],
   "author": "Danny Dalton (dannyrdalton@gmail.com)",
-  "license": "BSD-2-Clause"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dannyrdalton/tubedata"
+  },
+  "bugs": {
+    "url": "https://github.com/dannyrdalton/tubedata/issues"
+  },
+  "dependencies": {
+    "request": "~2.27.0"
+  }
 }
