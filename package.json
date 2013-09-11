@@ -1,0 +1,17 @@
+{
+  "name": "tubedata",
+  "version": "0.0.1",
+  "description": "A wrapper for the Youtube Data API.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "youtube",
+    "data",
+    "API",
+    "wrapper"
+  ],
+  "author": "Danny Dalton (dannyrdalton@gmail.com)",
+  "license": "BSD-2-Clause"
+}
