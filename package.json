@@ -1,7 +1,7 @@
 {
   "name": "tubedata",
   "version": "0.0.1",
-  "description": "A wrapper for the Youtube Data API.",
+  "description": "A wrapper for the list function in the Youtube Data API. Also provides some extra helper functions for requesting videos.",
   "main": "index.js",
   "scripts": {
     "test": "node test/main.js"
@@ -20,9 +20,10 @@
   "bugs": {
     "url": "https://github.com/dannyrdalton/tubedata/issues"
   },
+  "license": "MIT",
   "dependencies": {
     "request": "~2.27.0",
     "async": "~0.2.9",
     "underscore": "~1.5.2"
   }
-}
+}c
