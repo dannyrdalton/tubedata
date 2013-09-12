@@ -37,7 +37,7 @@ The only other functionality that has been added at this point is the ability to
 
 i.e.
 ```
-tubeData.channel.getUploadedVideos('example-channel-name', function(videos) {
+tubedata.channel.getUploadedVideos('example-channel-name', function(videos) {
 	//process videos here
 });
 ```
