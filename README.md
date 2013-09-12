@@ -6,7 +6,7 @@ npm install tubedata
 
 # Configuration
 
-First, get a Youtube API Key from Google.  
+First, get a Youtube API Key from Google.
 
 Then, hust require the module, set the API Key and you are good to go!
 
@@ -19,7 +19,7 @@ tubedata.setApiKey('example-youtube-api-key');
 
 This module is a work in progress, and only contains minor functionality at this point.
 
-So far this module implements the `list` data call for the channel, playlist, playlist item, and video resources. To use the `list` function call: `tubedata.resource.list(parts, options, callback)`  
+So far this module implements the `list` data call for the channel, playlist, playlist item, and video resources. To use the `list` function call: `tubedata.resource.list(parts, options, callback)`
 
 i.e.
 ```
@@ -33,5 +33,15 @@ tubedata.channel.list(parts, options, function(error, response, body) {
 });
 ```
 
+The only other functionality that has been added at this point is the ability to get ALL the videos for a certain channel, all you need to do is provide the name. To use the `getUploadedVideos` function call: `tubedata.channel.getUploadedVideos(channelName, callback)`
 
-Currently a work in progress. Will eventually be a youtube data api wrapper.
+i.e.
+```
+tubeData.channel.getUploadedVideos('example-channel-name', function(videos) {
+	//process videos here
+});
+```
+
+
+
+Currently a work in progress. Will be adding better abstractions and finer grained control module calls.
