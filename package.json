@@ -1,6 +1,6 @@
 {
   "name": "tubedata",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A wrapper for the list function in the Youtube Data API. Also provides some extra helper functions for requesting videos.",
   "main": "index.js",
   "scripts": {
