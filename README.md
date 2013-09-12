@@ -44,4 +44,4 @@ tubedata.channel.getUploadedVideos('example-channel-name', function(videos) {
 
 
 
-Currently a work in progress. Will be adding better abstractions and finer grained control module calls.
+Currently a work in progress. Will be adding better abstractions and finer grained control module calls. Documentation will slowly improve over time also. Let me know if you want to help out!
