@@ -16,10 +16,15 @@ console.log(tubedata.getApiKey());
 	}
 ); */
 
-tubedata.playlistItems.list(['contentDetails'], { 
+/*tubedata.playlistItems.list(['contentDetails'], { 
 	playlistId: 'UUTTSHJ2LsaHQ8FBiNUstEtw'
 }, function(error, reponse, body) {
 	console.log(body);
+}); */
+
+tubedata.channel.getUploadedVideos('LibraryUk', function(videos) {
+	console.log(videos.length);
+	//console.log(videos);
 });
 
 /*tubedata.channel.list(['contentDetails'], { forUsername: 'LibraryUk'},
