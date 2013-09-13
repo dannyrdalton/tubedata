@@ -33,6 +33,8 @@ tubedata.channel.list(parts, options, function(error, response, body) {
 });
 ```
 
+To check out what `parts` and `options` you can pass into the list function for each resource <a href="https://developers.google.com/youtube/v3/docs/">here</a>. Please note that both the **filter** and **optional parameters** both go in the `options` json
+
 The only other functionality that has been added at this point is the ability to get ALL the videos for a certain channel, all you need to do is provide the name. To use the `getUploadedVideos` function call: `tubedata.channel.getUploadedVideos(channelName, callback)`
 
 i.e.
