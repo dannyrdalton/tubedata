@@ -1,3 +1,5 @@
+Note: This Youtube Data API wrapper does not yet support any calls which require authorization. It will be implemented in the future.
+
 # Installation
 
 ```
@@ -19,7 +21,7 @@ tubedata.setApiKey('example-youtube-api-key');
 
 This module is a work in progress, and only contains minor functionality at this point.
 
-So far this module implements the `list` data call for the channel, playlist, playlist item, search, and video resources. To use the `list` function call: `tubedata.resource.list(parts, options, callback)`
+So far this module implements the `list` data call for all Youtube data resources. To use the `list` function call: `tubedata.resource.list(parts, options, callback)`
 
 i.e.
 ```
@@ -43,7 +45,6 @@ tubedata.channel.getUploadedVideos('example-channel-name', function(videos) {
 	//process videos here
 });
 ```
-
 
 
 Currently a work in progress. Will be adding better abstractions and finer grained control module calls. Documentation will slowly improve over time also. Let me know if you want to help out!
