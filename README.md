@@ -19,7 +19,7 @@ tubedata.setApiKey('example-youtube-api-key');
 
 This module is a work in progress, and only contains minor functionality at this point.
 
-So far this module implements the `list` data call for the channel, playlist, playlist item, and video resources. To use the `list` function call: `tubedata.resource.list(parts, options, callback)`
+So far this module implements the `list` data call for the channel, playlist, playlist item, search, and video resources. To use the `list` function call: `tubedata.resource.list(parts, options, callback)`
 
 i.e.
 ```
